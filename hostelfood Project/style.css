@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: left(34%);
+    align-items: center;
+    height: 100vh;
+    font-family: poppins, sans-serif;
+    background-color: rgb(33, 33, 216);
+    background-image: url();
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(91, 208, 208);
+    align-items: center;
+    z-index: 99;
+}
+.box{
+    position: fixed;
+    top: 10%;
+    right: 12%;
+    background-color: #6059e5;
+    border-radius: 58px;
+    width: 555px;
+    padding: 4% 0%;
+
+
+}
+
+.box h1 {
+    color: rgb(160, 187, 239);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: fixed;
+    margin-left: 6%;
+    font-size: 2.5em;
+}
+
+.box h4{
+    color: rgb(160, 187, 239);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: fixed;
+    margin-left: 14%;
+    font-size: 1.5em;
+    margin-top: 1.5%;
+}
+
+.box p{
+    padding-top: 5%;
+    font-size: 1.2em;
+
+}
+
+.form {
+    position: fixed;
+    top: 5%;
+    left: 12%;
+    width: 380px;
+    border-radius: 24px;
+    background: rgb(33, 33, 216);
+    padding: 5px 10px;
+    
+}
+.form h1{
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 1.5em;
+    color: rgb(82, 191, 241);
+}
+
+.Name {
+    color: aqua;
+    margin: 10px 0px 30px 0px ;
+}
+
+.studentid {
+    color: aqua;
+    margin: 10px 0px 30px 0px ;
+}
+
+.Container {
+    color: aqua;
+    margin: 10px 0px 30px 0px ;
+    border-bottom: #54a4dd;
+    border-bottom: 2px solid #54a4dd;
+}
+
+select {
+    width: 100%;
+    height: 25px;
+    margin: 10px 0px 10px 0px;
+    border-radius: 8px;
+    background-color: aqua;
+    font: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+.email {
+    color: aqua;
+    margin: 10px 0px 30px 0px ;
+}
+.phonenumber {
+    color: aqua;
+    margin: 10px 0 30px 0;
+}
+
+.pass {
+    color: aqua;
+    margin: 10px 0px 30px 0px ;
+}
+
+
+label {
+    display: block;
+    font-size: 12px;
+    font-weight: bloder;
+    margin: 5px 0px;
+}
+
+input {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #54a4dd;
+    outline: none;
+    font-size: 1em;
+    color: #4a93c8;
+    font-weight: 600;
+    padding: 0 35px 4px 5px;
+}
+
+#submit-btn {
+    border: none;
+    background-color: rgb(116, 193, 48);
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bolder;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: 30px 0px;
+}
+
+p{
+    font-size: 15px;
+    border-radius: 10px;
+    color: rgb(13, 201, 239);
+    cursor: pointer;
+    margin-left: 40px;
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bolder;
+}

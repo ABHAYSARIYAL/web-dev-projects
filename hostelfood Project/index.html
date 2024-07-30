@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://www.gstatic.com/firebasejs/10.11.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.11.0/firebase-firestore-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.11.0/firebase-auth-compat.js"></script>
+</head>
+<body>
+
+    <!-- for side box -->
+    <div class="box">
+        <h1>Welcome to our page</h1><br><br>
+        <p>We're thrilled to have you herel This platform is designed  <br>for you, the students living in hostels, to rate and review  <br>the food and services you receive. Your feedback on  <br>various aspects such as the quality of food, water <br> sanitation, playground facilities, and more, is invaluable <br> <br>
+        By sharing your experiences, you're helping us create a better living environment for everyone. So go ahead,<br> log in, and let your voice be heard <br> <br> <br>
+        We sincerely thank you for <br> visiting our Hostel Mess Rating <br> Page. Your participation and  <br>feedback are what make this <br> community vibrant and helpful <br> Together, we're making our <br> hostel a better place to live. <br> Keep rating, keep sharing</p>
+        <h4>THANK YOU</h4>
+    </div>
+
+
+
+    <div class="form">
+        <h1>Create Account</h1>
+
+         <!-- name -->
+         <div class="Name">
+            <label for="Name">Name</label>
+            <input type="text"
+            name="Name"
+            id="Name"
+            placeholder="Lorem ipsum">
+        </div>
+
+        <!-- student ID -->
+        <div class="studentid">
+            <label for="studentid">Student Id</label>
+            <input type="number"
+            name="studentid"
+            id="studentid"
+            placeholder="********">
+        </div>
+
+         <!-- choose hostel -->
+         <div class="Container">
+            <label for="Hostelname">Hostel Name</label>
+            <select name="hostelid" id="hostelid">
+                <option value="kedar">KEDAR HOSTEL</option>
+                <option value="alaknanda">ALAKNANDA HOSTEL</option>
+                <option value="kailash">KAILASH HOSTEL</option>
+                <option value="120r">120 HOSTEL</option>
+                <option value="180">180 HOSTEL</option>
+            </select>
+
+        </div>
+        
+
+        <!-- email -->
+        <div class="email">
+            <label for="email">Email</label>
+            <input type="email"
+            name="email"
+            id="email"
+            placeholder="Damo@gmail.com">
+        </div>
+
+        <!--phone number -->
+        <div class="phonenumber">
+            <label for="phonenumber">Phone No</label>
+            <input type="number"
+            name="phonenumber"
+            id="phonenumber"
+            placeholder="+91 0000-000-000">
+        </div>
+
+        <!-- password -->
+        <div class="pass">
+            <label for="pass">Password</label>
+            <input type="password"
+            name="password"
+            id="password"
+            placeholder="********">
+        </div>
+
+        <!-- button -->
+        <button id="submit-btn" onclick="signUp()"> Register </button>
+        <!-- sign in -->
+        <p>Already have an account? <a href="signin.html">Sign in</a></p>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
